@@ -8,5 +8,7 @@ print()
 print("Version is: ", sys.version)
 print()
 
+#ask for input
+message = input("Enter your message: ")
 # print hello world
-print("Hello World!")
+print("MOTD: " , str(message))
